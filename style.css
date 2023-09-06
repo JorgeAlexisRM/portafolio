@@ -78,6 +78,7 @@ h2{
 main p{
     text-align: justify;
     font-size: 24px;
+    padding: 20px;
 }
 
 /*Principal*/
@@ -86,18 +87,24 @@ main p{
 }
 
 /*Certifiaciones*/
-.certificaciones{
+.proyectos{
+    padding: 10px 10px 10px;
+}
+
+.certificaciones, .proyectos{
     width: 100%;
     margin: auto;
     padding-left: 50px;
 }
 
+.proyectos h1,
 .certificaciones h1{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
 
+.proyectos li,
 .certificaciones li{
     display: inline-block;
     text-align: center;
@@ -110,20 +117,24 @@ main p{
     border-radius: 10px;
 }
 
+.proyectos li:hover,
 .certificaciones li:hover{
     border-color: #ffffff;
 
 }
 
+.proyectos h2,
 .certificaciones h2{
     font-size: 30px;
     font-weight: bold;
 }
 
+.proyectos p,
 .certificaciones p{
     font-size: 18px;
 }
 
+.proyectos li:hover h2,
 .certificaciones li:hover h2{
     font-size: 33px;
 }
@@ -176,14 +187,14 @@ h3{
     font-size: 20px;
 }
 @media (max-width:991px){
-    .about .contacto{
+    .about, .contacto{
         flex: 0 0 100%;
         max-width: 50%;
     }
 
 }
 @media (max-width:767px){
-    .about .contacto{
+    .about, .contacto{
         flex: 0 0 100%;
         max-width: 100%;
     }
@@ -195,7 +206,7 @@ h3{
     nav{
         position: static;
     }
-    .caja .home .certificaciones{
+    .caja , .home , .certificaciones{
         width: auto;
     }
 }
