@@ -78,7 +78,7 @@ h2{
 main p{
     text-align: justify;
     font-size: 24px;
-    padding: 20px;
+    padding: 30px;
 }
 
 /*Principal*/
@@ -120,6 +120,8 @@ main p{
 .proyectos li:hover,
 .certificaciones li:hover{
     border-color: #ffffff;
+    background: #000000;
+    color: #ffffff;
 
 }
 
@@ -137,6 +139,16 @@ main p{
 .proyectos li:hover h2,
 .certificaciones li:hover h2{
     font-size: 33px;
+}
+
+.proyectos a{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.proyectos a:hover{
+    color: #7a7a7a;
+    text-decoration: underline;
 }
 
 /*Estilo Footer*/
@@ -206,7 +218,7 @@ h3{
     nav{
         position: static;
     }
-    .caja , .home , .certificaciones{
+    .caja , .home , .certificaciones, .proyectos{
         width: auto;
     }
 }
