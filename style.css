@@ -3,19 +3,20 @@ body{
 }
 
 /*Estilo encabezado*/
-header{
-    background: #000000
+header {
+    background: #000000;
+    padding: 20px;
 }
 
 .caja{
-    width: 940px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
 
 h1 img{
-    max-width: 10%;
+    max-width: 100%;
     height: auto;
     width: auto;
 }
@@ -24,6 +25,7 @@ nav{
     position: absolute;
     top: 30px;
     right: 0px;
+    width: 60%;
 }
 nav li {
     display: inline;
@@ -79,6 +81,9 @@ main p{
 }
 
 /*Principal*/
+.home {
+    width: 100%;
+}
 
 /*Certifiaciones*/
 .certificaciones{
@@ -181,5 +186,16 @@ h3{
     .about .contacto{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja .home{
+        width: auto;
     }
 }
