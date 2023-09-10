@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -8,31 +8,32 @@ header {
     padding: 20px;
 }
 
-.caja{
+.caja {
     width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
 
-h1 img{
+h1 img {
     max-width: 100%;
     height: 100px;
     width: 100px;
 }
 
-nav{
+nav {
     position: absolute;
     top: 30px;
     right: 0px;
     width: 60%;
 }
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
@@ -40,42 +41,43 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: #7a7a7a;
     text-decoration: underline;
 }
 
 /*Estilo Main*/
 
-.yo{
+.yo {
     border-radius: 70px;
     height: 150px;
     width: 150px;
 }
-.home{
+
+.home {
     padding: 3em 0;
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto;
 }
 
-main div{
+main div {
     text-align: center;
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 30px;
 }
 
-main p{
+main p {
     text-align: justify;
     font-size: 24px;
     padding: 30px;
@@ -87,25 +89,26 @@ main p{
 }
 
 /*Certifiaciones*/
-.proyectos{
+.proyectos {
     padding: 10px 10px 10px;
 }
 
-.certificaciones, .proyectos{
+.certificaciones,
+.proyectos {
     width: 100%;
     margin: auto;
     padding-left: 50px;
 }
 
 .proyectos h1,
-.certificaciones h1{
+.certificaciones h1 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
 
 .proyectos li,
-.certificaciones li{
+.certificaciones li {
     display: inline-block;
     text-align: center;
     width: auto;
@@ -118,7 +121,7 @@ main p{
 }
 
 .proyectos li:hover,
-.certificaciones li:hover{
+.certificaciones li:hover {
     border-color: #ffffff;
     background: #000000;
     color: #ffffff;
@@ -126,34 +129,55 @@ main p{
 }
 
 .proyectos h2,
-.certificaciones h2{
+.certificaciones h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
 .proyectos p,
-.certificaciones p{
+.certificaciones p {
     font-size: 18px;
 }
 
 .proyectos li:hover h2,
-.certificaciones li:hover h2{
+.certificaciones li:hover h2 {
     font-size: 33px;
 }
 
-.proyectos a{
+.proyectos a {
     color: #000000;
     text-decoration: underline;
 }
 
-.proyectos a:hover{
+.proyectos a:hover {
     color: #7a7a7a;
     text-decoration: underline;
 }
 
+/*skills*/
+
+.icon-skills{
+    text-align: center;
+    margin: 20px;
+}
+
+.icons li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.icon-skills img {
+    width: 60;
+    height: 60px;
+}
+
+.active {
+    opacity: 1;
+}
+
 /*Estilo Footer*/
 
-footer{
+footer {
     background-color: #000000;
     color: #eeeeee;
     padding: 30px 0;
@@ -161,64 +185,84 @@ footer{
     font-weight: bold;
     text-align: center;
 }
-.contacto{
+
+.contacto {
     max-width: 90%;
     margin: 0 auto;
     padding: 0 15px;
 }
-.fila{
+
+.fila {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
-.about{
+
+.about {
     flex: 0 0 33%;
     max-width: 33%;
     text-align: center;
 }
-h3{
+
+h3 {
     margin-bottom: 15px;
     color: #ffffff;
 }
-.flist{
+
+.flist {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.frow{
+
+.frow {
     margin-bottom: 10px;
 }
-.icon-social li{
+
+.icon-social li {
     display: inline-block;
     margin-right: 10px;
 }
-.icon-social li a{
+
+.icon-social li a {
     text-align: center;
     color: #eeeeee;
     font-size: 20px;
 }
-@media (max-width:991px){
-    .about, .contacto{
+
+@media (max-width:991px) {
+
+    .about,
+    .contacto {
         flex: 0 0 100%;
         max-width: 50%;
     }
 
 }
-@media (max-width:767px){
-    .about, .contacto{
+
+@media (max-width:767px) {
+
+    .about,
+    .contacto {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
-@media screen and (max-width: 400px){
-    h1{
+
+@media screen and (max-width: 400px) {
+    h1 {
         text-align: center;
     }
-    nav{
+
+    nav {
         position: static;
     }
-    .caja , .home , .certificaciones, .proyectos{
+
+    .caja,
+    .home,
+    .certificaciones,
+    .proyectos {
         width: auto;
     }
 }
