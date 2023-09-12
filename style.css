@@ -187,9 +187,9 @@ footer {
 }
 
 .contacto {
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
 }
 
 .fila {
@@ -200,8 +200,8 @@ footer {
 }
 
 .about {
-    flex: 0 0 33%;
-    max-width: 33%;
+    flex: 0 0 50%;
+    max-width: 50%;
     text-align: center;
 }
 
